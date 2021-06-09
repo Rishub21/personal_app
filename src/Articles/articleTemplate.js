@@ -27,3 +27,6 @@ const ArticleTemplate = (props) => {
 
 export default ArticleTemplate 
 // extra_comment 
+// extra_comment 2
+// extra comment 3
+ 
