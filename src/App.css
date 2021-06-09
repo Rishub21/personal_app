@@ -1,38 +1,203 @@
-.App {
-  text-align: center;
+:root{
+  var-MainColor: rgba(68, 109,255, .72);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.siteContainer{ 
+  height: 100%; 
+  background-color: black;
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.footer{ 
+  
+  left:0;
+  bottom:0;
+  width: 100%; 
+  height: 10%;
+  background-color: black;
+  color: white;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h1{ 
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html,body,#root{  /* this is critical to make sure that the containers within them (ex writing-container can actually take up the full lenggh/*)*/
+  margin: 0;
+  height:100%;
+}
+.page-container{ 
+  min-height: 100%; 
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
+  left:0;
+  width:100%;
+  margin-top: 50px;
+
+
+}
+
+.search-bar {
+  width: 80%;
+  min-height: 30px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 30px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #7B7B7B;
+}
+
+
+.input-text {
+  font-size: 1rem;
+  font-weight: 400;
+  width: 80%;
+  margin-left: 15px;  
+  border-radius: calc(0.5 * 100px);
+}
+
+.input-text::placeholder {
+  color: #000;
+  font-size: 1rem;
+}
+
+
+.input-text,
+.input-submit {
+  outline: none;
+  border: none;
+
+}
+
+
+.filter-list{ 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 90%;
+  margin:0;
+  padding-left: 0;
+}
+
+
+.readingLink{ 
+  color:  rgba(68, 109,255, .72);
+  text-decoration: none;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+
+button {
+  background-color: white; /* Green */
+  border-style: solid;
+  border-width: 1;
+  border-radius: 3px;
+
+  border-color:#7B7B7B;
+  color:black;
+
+  font-size: 12px;
+  width: 20%;
+  min-height: 30px;
+}
+
+ul { 
+  padding: 0;
+}
+
+.pageTitle{ 
+  color: var(MainColor);
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: rgba(68, 109,255, .72);
+
+}
+
+.postTitle{ 
+  color: rgba(68, 109,255, .72);
+
+}
+
+.post-row{ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.post-column{ 
+  flex-basis: 100%;
+}
+
+.post-grid{ 
+  display: flex;
+  flex-direction: column;
+  width: 90%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.post{ 
+  background-color: #EEEEEE;
+
+  height: 200px;  
+  margin-top: 50px;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+  border-radius: calc(0.3 * 100px);
+  border-style: solid;
+  border-width: 0px;
+  border-color: black;
+  padding: 10px;
+
+}
+#post-heading{ 
+    text-align: center;
+    font-family: "Segoe UI", Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+#post-summary{ 
+    text-align: center; 
+    font-family: "Segoe UI", Arial, sans-serif;
+  
+}
+
+@media(min-width:1450px){ 
+  .page-container{ 
+    margin-left: 15%;
+    margin-top: 0%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+
+@media(min-width: 600px ){ 
+  .search-bar{ 
+    width: 500px;
+    height: 30px;
+  }
+  .filter-list{ 
+    width: 600px;
+  }
+  .post-grid{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 50% 50%;
+  
+  }
+  button{ 
+    padding: 10px 25px;
+    font-size: 16px;
+    max-height: 40px;
+
+  }
+  .input-text{ 
+    margin-top: 7px;
   }
 }

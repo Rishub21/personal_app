@@ -1,0 +1,30 @@
+.headingContainer{ 
+    width: 100%; 
+    background-color: #EEEEEE;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headingName{ 
+    color:  rgba(68, 109,255, .72);
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin-left: 10%;
+
+}
+
+.hambugerLine{ 
+    width: 30px;
+    height: 5px;
+    background-color: #7B7B7B;
+    margin: 6px 0;
+}
+
+.hamburgerGroup{
+    max-height: 50px;
+    max-height: 20px;
+    position:absolute;
+    bottom:30px;
+    right:10px;
+}

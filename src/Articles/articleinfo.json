@@ -1,0 +1,37 @@
+[{ 
+    "Title": "Bringing Debt to Silicon Valley 😃",
+    "Path": "bringing_debt",
+    "Category": "Venture",
+    "KeyWords": ["Debt", "Lending", "Finance"],
+    "Summary": "A new breed of lending can take hold thanks to stable SaaS revenues",
+    "Showing": true,
+    "id":"" 
+}, 
+{
+"Title": "Uber in Credit 💳",
+"Path": "uber_credit",
+"Category": "Strategy",
+"KeyWords": ["Rideshare", "Credit", "Finance"],
+"Summary": "Why did Uber decide to bring credit cards into the mix",
+"Showing": true,
+"id": ""
+},
+{
+    "Title": "Uber in Credit 2💳",
+    "Path": "uber_credit_2",
+    "Category": "Strategy",
+    "KeyWords": ["Rideshare", "Credit", "Finance"],
+    "Summary": "Why did Uber decide to bring credit cards into the mix",
+    "Showing": true,
+    "id": ""
+},
+{
+    "Title": "Uber in Credit 3💳",
+    "Path": "uber_credit_3",
+    "Category": "Strategy",
+    "KeyWords": ["Rideshare", "Credit", "Finance"],
+    "Summary": "Why did Uber decide to bring credit cards into the mix",
+    "Showing": true,
+    "id": ""
+}
+]

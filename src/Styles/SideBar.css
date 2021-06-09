@@ -1,0 +1,45 @@
+
+.sideBarHeading { 
+    color: #7B7B7B;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.sideBarHeading:hover{ 
+    text-decoration: underline;
+
+}
+
+NavLink,.sideBarHeading:visited{ 
+    text-decoration: none;
+
+}
+
+
+
+.sideBarName { 
+    color: rgba(68, 109,255, .72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sideBarContainer{ 
+    background-color: #EEEEEE;
+    width: 15%; 
+    height: 100%; 
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    
+}
+
+.sideBarMenu{ 
+    margin-top: 50px;
+
+}
+
+.sideBarImg{ 
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
